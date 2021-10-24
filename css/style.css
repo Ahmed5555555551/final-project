@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+/* ___________________head bar____________________ */
+#nave-bar .navbar{
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* ___________________end head bar___________________ */
+/* ____________________start head section_____________ */
+#home{
+    background-image: url(../img/bg/section1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 100vh;
+}
+#home .container .row .col-md-6 .row .col-md-6{
+    margin-top: 40px;
+}
+/* #home .container .row .col-md-6 .row .col-md-6 .row{
+    margin-top: 10px;
+} */
+#home .container .row .col-md-6 .col-md-8 p{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+#home .container .row .col-md-6  #btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#home .container .row .col-md-6  .row {
+margin-left: 10px;
+}
+#home .container .row .col-md-6  .row .col-md-6 a .btn{
+    border-radius:25px;
+}
+#home .container .row .col-ms-6  .row .col-md-6 .ca{
+    text-decoration: none;
+} 
+#home .container .row .col-md-6  .row .col-md-6 .ca:hover{
+    font-weight: bolder;
+}
+/* ______________end head_____________ */
+/* Start section______________ */
+#about{
+    width: 100%;
+    height: 80vh;
+}
+#about .container .row{
+    margin-top: 5%;
+}
+#about .container .row .col-md-6 h5{
+    margin-top: 40px;
+    margin-bottom: 30px;
+     margin-left: 10px;
+
+}
+#about .container .row .col-md-6 h2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+#about .container .row .col-md-6 p{
+    margin-top: 40px;
+    margin-bottom:30px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    font-size: 18px;
+}
+#about .container .row .col-md-6{
+    flex-basis: 50%;
+    display: block;
+
+}
+
+#about .container .row .col-md-6 ul {
+    height: 453.6px;
+    width: 297.6px;
+    box-shadow: #465675;
+    margin-left: 100px;
+    margin-top: 120px;
+ 
+}
+#about .container .row .col-md-6 ul li {
+    width: 295.6px;
+    height: 60.2px;
+    border: 1px solid #e7e8ff;
+
+}
+#about .container .row .col-md-6 ul li .sa{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#about .container .row .col-md-6 ul li .sa a{
+    text-decoration: none;
+}
+#about .container .row .col-md-6 ul li .sa a span{
+    margin-right: 10px;
+
+}
+
+
+
+/* _________________________________end about _______________ */
+/* stat tranmission section */
+#tranmission{
+    width: 100%;
+    height: 120vh;
+    background-color: #F7F9FE;
+    padding: 100px 0;
+    scroll-behavior: smooth;
+
+}
+#tranmission .container .text-center{
+    margin-left: 30px;
+    margin-right: 100px;
+}
+#tranmission .container .text-center h5{
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    color:#2a80e8;
+}
+#tranmission .container .text-center h2{
+    font-weight: 900;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+    color: #50658e;
+}
+#tranmission .container .text-center p{
+    color: #3d4b69;
+    margin-bottom: 60px;
+    line-height: 1.5em;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+#tranmission .container .spread-box .card-group .row .col-md .card{
+    width: 75%;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+#tranmission .container .spread-box .card-group .row .col-md .card img{
+    width: 100%;
+    background-color: #fff;
+}
+#tranmission .container .spread-btn{
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+#tranmission .container .spread-btn .d-grid button{
+    border-radius: 25px;
+    font-weight: bolder;
+}
+/* ________end section_________ */
+/* ________Start symptoms_________ */
+#symptoms {
+    width: 100%;
+    height: 130vh;
+}
+#symptoms .container .row .col h5{
+    color: #2a81ea;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+#symptoms .container .row .col h2{
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #50658e;
+}
+#symptoms .container .row .col-md p{
+    color: #3d4b69;
+    margin-bottom: 60px;
+    margin-top: 25px;
+    line-height: 1.5em;
+}
+#symptoms .container .row .col-md .card{
+    height: 85%;
+    width: 75%;
+}
+#symptoms .container .row .col-md .card .card-body{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 6;
+}
+#symptoms .container .row .col-md .card .card-body .card-title{
+    margin-top: 70px;
+}
+#symptoms .container .p2 .row {
+    /* margin-top: 20%; */
+}
+/* End symptoms section_____________ */
+/* __________start advice section_______________    */
+#advice{
+    height: 110vh;
+    width: 100%;
+    padding: 100px 0;
+    background-color: #f7f9fe;
+    display: block;
+}
+#advice .container .row {
+    text-align: center;
+}
+#advice .container .row h5{
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    color:#2a80e8;
+}
+#advice .container .row h2{
+    font-weight: 900;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+    color: #50658e;
+}
+#advice .container .row p{
+    width: 60%;
+}
+#advice .container .row .col-md .card{
+    background-color: #f7f9fe;
+    border: 0px;
+    align-items: center;
+    height: 10%
+}
+#advice .container .row .col-md .card img {
+    border-radius: 50%;
+}
+#advice .container .row .col-md .card .card-body h5 {
+    text-align: left;
+    color: #3d4b69;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+#advice .container .row .col-md .card .card-body p {
+    margin-left: 30px;
+    color: #3d4b69;
+    line-height: 1.5em;
+    text-align: left;
+}
+#advice .container .row .col-md-6 a{
+    margin-top: 40px;
+}
+#advice .container .row .col-md-6 a{
+    text-decoration: none;
+    color: #2a81ea;
+    cursor: pointer;
+}
+/* ______________end advice section_____ */
+/* _______________start steps section__ */
+#steps {
+    background-color: #f7f9fe;
+    width: 100%;
+    height: 100vh;
+}
+#steps .container{
+    background-color: #ffffff;
+}
+#steps .container .col-md-7 h2{
+color: #465675;
+font-weight: bolder;
+margin-top: 40px;
+margin-left: 40px;
+font-size: 30px;
+}
+#steps .container-fluid .col-md-7 ul{
+    list-style-type: none;
+}
+#steps .container .col-md-7 ul li{
+    display: inline;
+}
+#steps .container .col-md-7 ul li .text{
+    color: #3d4b69;
+}
+/* _____________end steps___________- */
+/* _____________start hand section__________ */
+#hand{
+    background-color: #f7f9fe;
+    width: 100%;
+    height: 55vh;
+}
+#hand .container .row .col-md{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#hand .container .row .col-md h2{
+    margin-bottom: 20px;
+    color: #465675;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#hand .container .row .col-md a{
+    text-decoration: none;
+    color: #2a81ea;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+#hand .container .row .col-md-2{
+    background-color: #f7f9fe;
+}
+#hand .container .row .col-md-2 .card{
+    justify-content: center;
+    background-color: #f7f9fe;
+    border: none;
+    margin-top: 40px;
+}
+#hand .container .row .col-md-2 .card img{
+    margin-left: 40px;
+    border-radius: 50%;
+}
+#hand .container .row .col-md-2 .card .card-body h5{
+    text-align: center;
+    margin-top: 10px;
+    color: #3d4b69;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* _______end hand section_____________ */
+/* start carful section_____ */
+#carful{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg/section1.png);
+    background-color:#2766bb ;
+}
+#carful .container .row .col-md-8 h5{
+    font-weight: bolder;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    color:#73e3ff;
+}
+#carful .container .row .col-md-8 h2{
+    margin-left: 80px;
+    color: white;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 33px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+#carful .container .row .col-md-8 p{
+    color: white;
+    margin-left: 10%;
+    margin-right: 12%; 
+    margin-bottom: 1rem;
+}
+#carful .container .row .col-md-4{
+    background-color: #1b47a1;
+    width: 30%;
+    margin-top: 8%;
+    color: white;
+    height: 60%;
+} 
+#carful .container .row .col-md-4 h6{
+    margin-top: 40px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+#carful .container .row .col-md-4 p{
+    margin-left: 15px;
+}
+#carful .container .row .col-md-4 ul{
+    list-style: none;
+    color: white;
+}
+#carful .container .row .col-md-4 ul li{
+    margin-top: 10px;
+    position: relative;
+}
+/* ____________________end carful section____________ */
+/* ___________strat protect section_______ */
+#protect{
+    width: 100%;
+    height: 110vh;
+    background-color: #f7f9fe;
+}
+#protect .container .row .col-md-12{
+    text-align: center;
+    margin-top: 40px;
+}
+#protect .container .row .col-md-12 h5{
+    font-weight: bolder;
+    /* margin-top: 100px; */
+    /* font-size: 18px; */
+    letter-spacing: 0.1em;
+    /* margin-bottom: 7px; */
+    text-transform: uppercase;
+    color:#2a81ea;
+}
+#protect .container .row .col-md-12 h2{
+    /* margin-bottom: 20px; */
+    color: #465675;
+    font-size: 30px;
+    font-weight: bolder;
+    /* margin-top: 20px; */
+}
+#protect .container .row .col-md-12 p{
+    text-align: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    color: #3d4b69;
+    line-height: 1.5em;
+    /* margin-bottom: 50px; */
+}
+/* ____________end section______ */
+/* start section according____ */
+/* ________end according_ */
+/* start latest section___ */
+#latest {
+    width: 100%;
+    height: 80vh;
+    background-color: #f7f9fe;
+}
+#latest .container h5{
+    text-align: center;
+    color: #2a81ea;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    margin-bottom: 10px;
+}
+#latest .container h2{
+    text-align: center;
+    color: #50658e;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+#latest .container .row .col-md .card {
+    background-color: #fff;
+    /* width: 70%;
+    height: 60vh; */
+    display: flex;
+    justify-content: space-between;
+}
+/* #latest .container .row .col-md .card img{ 
+/* width: 243px;
+height: 150.8px;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+/* margin-bottom: 20px; */
+
+#latest .container .row .col-md .card .card-body h5{
+    color: #465675;
+    margin: 20px 0;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+}
+#latest .container .row .col-md .card .card-body h5:hover{
+    color: #2a81ea;
+}
+#latest .container .row .col-md .card .card-body p{
+    color: #3d4b69;
+    line-height: 1.5em;
+    text-align: center;
+}
+/* ____________end section__ */
+/* ________start footer_______ */
+footer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg/section1.png);
+    background-color: #151c2e;
+    color: #fff;
+}
+/* footer .container .row{
+    margin-left: 5%;
+} */
+footer .container .row .col-md-2{
+    margin-top: 10%;
+    margin-left: 20px;
+    width: 20%;
+}
+footer .container .row .col-md-2 ul{
+    list-style: none;
+}
+footer .container .row .col-md-2 ul li{
+    margin-top: 20px;
+}
+footer .container .row .col-md-2 ul li h5{
+    font-weight: bolder;
+}
+footer .container .row .col-md-2 ul li a{
+    text-decoration: none;
+    color: #b2bfe0;
+}
+footer .container .row .col-md-2 ul li .communicate{
+    align-items: center;
+}
+footer .container .row .col-md-2 ul li .communicate a{
+    display: inline-block;
+
+}
+/* ______________________end footer___________ */
+#go-to-top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 98;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+
+}
+#go-to-top:hover{
+    /* background-color: #555; */
+}
+#go-to-top a {
+    /* background-color: #2b56f5;
+    width: 40px;
+    height: 20px; */
+    color: #fff;
+    position: fixed;
+    padding: 2px;
+    right: 2.5%;
+    bottom: 3.5%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #2b56f5;
+    border-radius: 50%;
+}
